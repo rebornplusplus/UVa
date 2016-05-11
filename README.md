@@ -1,2 +1,2 @@
-This repository currently holds some of my solutions of UVa.
+This repository currently holds some of my solutions of UVa.<br />
 This might get bigger everyday... :)
