@@ -19,7 +19,7 @@ void dfs_visit(char u) {
   visited[u] = 1;
   for(int i=0; i<G[u].size(); i++) dfs_visit(G[u][i]);
   visited[u] = 2;
-  TSorted.push_back(u);
+  TSorted.push_back(u);   // TopSort
 }
 
 void dfs() {
@@ -29,6 +29,7 @@ void dfs() {
 
   for(int i=0; i<nodes.size(); i++)
     dfs_visit(nodes[i]);
+  reverse(TSorted.begin(), TSorted.end());
 }
 
 void calNodes(string &s) {
@@ -53,7 +54,7 @@ int main()
       calNodes(s2);
       for(int i=0; i<s1.size() && i<s2.size(); i++)
         if(s1[i] != s2[i]) {
-          G[ s2[i] ].push_back(s1[i]);
+          G[ s1[i] ].push_back(s2[i]);
           break;
         }
       s1 = s2;
