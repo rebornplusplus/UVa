@@ -1,5 +1,5 @@
 <pre>
-<b> UVa </b><br/>
+<h3> UVa </h3>
 This repository currently holds some of my solutions of UVa.
 This might get bigger everyday... :)
 <hr/>
