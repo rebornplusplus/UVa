@@ -10,7 +10,6 @@ int main()
   while(cin >> a >> b) {
     tmp_a = a;
     tmp_b = b;
-
     if(a>b) swap(a, b);
 
     max = 0;
