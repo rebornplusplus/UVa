@@ -44,6 +44,7 @@ int main()
       smallest = tmp;
       first = 'G'; second = 'C'; third = 'B';
     }
+    
     cout << first << second << third << " " << smallest << endl;
   }
   return 0;
