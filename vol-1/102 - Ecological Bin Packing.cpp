@@ -5,6 +5,7 @@ int main()
 {
   char first, second, third;
   int B[3], G[3], C[3], smallest, tmp; // bottle
+  
   while(cin >> B[0] >> G[0] >> C[0] >> B[1] >> G[1] >> C[1] >> B[2] >> G[2] >> C[2]) {
     smallest = B[1] + B[2] + C[0] + C[2] + G[0] + G[1]; // BCG
     first = 'B'; second = 'C'; third = 'G';
