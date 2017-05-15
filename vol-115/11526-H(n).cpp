@@ -1,5 +1,5 @@
 /*
-	Solution: For the smaller values like 1, 2, 3, .... sqrt(n) we can actually calculate how many are there.
+	Sol: For the smaller values like 1, 2, 3, .... sqrt(n) we can actually calculate how many are there.
 	For any 1 <= i <= sqrt(n), there's actually (n-n/2-n/3-...-n/(i+1)) of them.
 	And for the bigger values, we now know that there are sqrt(n) (-1) left of them. So we just calculate them the naive way
 */
